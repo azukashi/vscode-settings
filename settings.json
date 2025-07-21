@@ -17,7 +17,7 @@
     "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "underline",
-    "workbench.colorTheme": "Mayukai Dark",
+    "workbench.colorTheme": "Mayukai Mono",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.list.smoothScrolling": true,
     "workbench.sideBar.location": "right",
@@ -27,8 +27,6 @@
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
     "window.titleSeparator": "︱",
     "workbench.tips.enabled": false,
-    "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": -1,
     // Git settings
     "git.autofetch": true,
     "git.fetchOnPull": true,
@@ -36,7 +34,7 @@
     "discord.detailsEditing": "📝 {file_name} | {file_size}",
     "discord.detailsDebugging": "🐛 {file_name} | {file_size}",
     "discord.detailsIdling": "💤 | Idling",
-    "discord.lowerDetailsEditing": "📂 {workspace}/{dir_name}",
+    "discord.lowerDetailsEditing": "📂 az.micin.life/{dir_name}",
     "discord.lowerDetailsDebugging": "📂 {workspace}/{dir_name}",
     "discord.lowerDetailsIdling": "{empty}",
     "discord.lowerDetailsNoWorkspaceFound": "❌ No Workspace",
@@ -55,5 +53,19 @@
     "git.enableCommitSigning": true,
     "svelte.enable-ts-plugin": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
+    "diffEditor.ignoreTrimWhitespace": true,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        "/tmp/postman-collections-post-response.instructions.md": true,
+        "/tmp/postman-collections-pre-request.instructions.md": true,
+        "/tmp/postman-folder-post-response.instructions.md": true,
+        "/tmp/postman-folder-pre-request.instructions.md": true,
+        "/tmp/postman-http-request-post-response.instructions.md": true,
+        "/tmp/postman-http-request-pre-request.instructions.md": true
+    }
 }
