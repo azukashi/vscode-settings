@@ -4,9 +4,18 @@ My own VSCode Local settings & configuration
 
 ## 🖼️ Preview
 
-[![Settings Preview](https://cdn.upload.systems/uploads/3LEPawTF.png)](https://cdn.upload.systems/uploads/3LEPawTF.png)
+![Settings Preview](https://azukashiic.sirv.com/assets/portfolio/projects/vscsetting.png?format=original&q=100)
 
 ## ➡️ Installation
+
+### 🍎 macOS
+
+Default user configuration directory : `~/Library/Application Support/Code/User/`
+
+```bash
+# Copy settings & rename file extension to .json
+$ cp ./settings.json ~/Library/Application Support/Code/User/settings.json
+```
 
 ### 🐧 Linux
 
@@ -14,7 +23,7 @@ Default user configuration directory : `~/.config/Code/User`
 
 ```bash
 # Copy settings & rename file extension to .json
-$ cp ./settings.ts ~/.config/Code/User/settings.json
+$ cp ./settings.json ~/.config/Code/User/settings.json
 ```
 
 ## 🧩 Extensions
@@ -22,20 +31,13 @@ $ cp ./settings.ts ~/.config/Code/User/settings.json
 Install these extensions by copying identifier name to extension search tab
 
 ```
-bungcip.better-toml
-exodiusstudios.comment-anchors
-icrawl.discord-vscode
-mikestead.dotenv
+csstools.postcss
 github.codespaces
+icrawl.discord-vscode
+krautgti.glass-theme-doyle
 github.vscode-pull-request-github
 pkief.material-icon-theme
-silvenon.mdx
-zhuangtongfa.material-theme
-bmewburn.vscode-intelephense-client
 esbenp.prettier-vscode
-svelte.svelte-vscode
 bradlc.vscode-tailwindcss
-vue.volar
-wakatime.vscode-wakatime
-redhat.vscode-yaml
+gulajavaministudio.mayukaithemevsc
 ```
