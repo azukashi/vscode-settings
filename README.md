@@ -14,7 +14,7 @@ Default user configuration directory : `~/Library/Application Support/Code/User/
 
 ```bash
 # Copy settings & rename file extension to .json
-$ cp ./settings.json ~/Library/Application Support/Code/User/settings.json
+$ cp ./settings.json ~/Library/Application\ Support/Code/User/settings.json
 ```
 
 ### 🐧 Linux
